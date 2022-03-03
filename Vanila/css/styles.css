@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  padding: 20px;
+}
+
+/* Responsive table styles */
+.responsiveTable {
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+.responsiveTable caption {
+  font-size: 1.5rem;
+  margin: 0.5rem 0 0.75rem;
+}
+
+.responsiveTable tr {
+  border-bottom: 1px solid #d1d1d161;
+  padding: 0.35rem;
+}
+
+.responsiveTable th,
+.responsiveTable td {
+  padding: 0.625rem;
+  text-align: left;
+}
+
+.responsiveTable th {
+  font-size: 1rem;
+  font-weight: 700;
+  border-bottom: 2px solid #8f8f8f6e;
+}
+
+@media screen and (max-width: 800px) {
+
+  .responsiveTable {
+    border: 0;
+  }
+
+  .responsiveTable caption {
+    font-size: 1.3rem;
+  }
+
+  .responsiveTable thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  .responsiveTable tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625rem;
+    padding: 0;
+  }
+
+  .responsiveTable td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 1rem;
+    text-align: right;
+  }
+
+  .responsiveTable td::before {
+    /*
+    * aria-label has no advantage, it won't be read inside a .responsiveTable
+    content: attr(aria-label);
+    */
+    content: attr(data-label);
+    float: left;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+  }
+
+  .responsiveTable td:last-child {
+    border-bottom: 0;
+  }
+}
