@@ -8,6 +8,8 @@ Projeto que demonstra uma maneira de deixar uma tabela responsiva apenas com HTM
 
 Projeto aplicado em uma tabela padrão e em uma tabela do Material UI.
 
+[<img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white">](https://www.youtube.com/watch?v=HYhuY1IWiFI)
+## Veja rodando:
 ### Vanila: 
 [<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">](https://tabela-responsiva-vanila.vercel.app/)
 
