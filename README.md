@@ -1,5 +1,9 @@
 # :computer: Tabela responsiva
 
+<p align="center">
+  <img alt="Tabela responsiva" src=".github/hero.gif" width="100%">
+</p>
+
 Projeto que demonstra uma maneira de deixar uma tabela responsiva apenas com HTML5 e CSS3. 
 
 Projeto aplicado em uma tabela padrão e em uma tabela do Material UI.
